@@ -1,0 +1,16 @@
+.login-container{
+    background-color: rgba(255,255,255,0.5); 
+}
+
+.middle-login-con{
+    background-image: url("./background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.commentout{
+    color:#41424c;
+    cursor:pointer;
+}
+.shw-pwd{
+    cursor: pointer;
+}

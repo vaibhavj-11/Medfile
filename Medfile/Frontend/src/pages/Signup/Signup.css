@@ -1,0 +1,143 @@
+.CreateAccount{
+  font-size: 30px;
+  
+}
+
+.welcome{
+  font-size: 42px;
+}
+
+.middle-signup-con{
+  background-image: url("./background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.signup-container {
+  border: 1px solid black;
+  background-color: rgba(255,255,255,0.5); 
+  border-radius: 30px;
+  overflow-y: scroll;
+  height:90vh;
+  width: 60vh;
+}
+.signup-container::-webkit-scrollbar {
+  display: none;
+  /* Hide scrollbar */
+}
+
+.middle-signup-con, .middle-login-con, .middle-qr-con {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.form-for-signup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.name-cont, .age-cont, .height-cont, .gender-cont, .weight-cont, .Address, .Disability, .Allergies, .Medications, .Operations {
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-start;
+  justify-content: center; */
+}
+
+.name-cont > input, .age-cont > input, .height-cont > input, .weight-cont > input, .Address > input, .Disability > input, .Allergies > input, .Medications > input, .Operations > input {
+  /* border-radius: 20px; */
+  border: none;
+  background-color: #eeeeee;
+  /* border-bottom: 1px solid blue; */
+  padding: 10px;
+  margin: 10px;
+  border-radius: 12px;
+  color: black;
+  font-family: inherit;
+  outline: none;
+  width: 400px;
+}
+
+.pass-cont {
+  display: flex;
+  flex-direction: column;
+}
+
+.pass-cont > input {
+  /* border-radius: 20px; */
+  border: none;
+  background-color: #eeeeee;
+  /* border-bottom: 1px solid blue; */
+  padding: 10px;
+  margin: 10px;
+  border-radius: 12px;
+  color: black;
+  font-family: inherit;
+  outline: none;
+  width: 400px;
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+}
+.email > input {
+  /* border-radius: 20px; */
+  border: none;
+  background-color: #eeeeee;
+  /* border-bottom: 1px solid blue; */
+  padding: 10px;
+  margin: 10px;
+  border-radius: 12px;
+  color: black;
+  font-family: inherit;
+  outline: none;
+  width: 400px;
+}
+.org {
+  display: flex;
+  flex-direction: column;
+}
+
+.org > input {
+  /* border-radius: 20px; */
+  border: none;
+  background-color: #eeeeee;
+  /* border-bottom: 1px solid blue; */
+  padding: 10px;
+  margin: 10px;
+  border-radius: 12px;
+  color: black;
+  font-family: inherit;
+  outline: none;
+  width: 400px;
+}
+
+.sign-btn {
+  border-radius: 12px;
+  padding: 10px;
+  width: 100px;
+ 
+}
+
+.name-cont > input:hover {
+  border-bottom: 1.5px solid #0ea2bd;
+}
+
+.pass-cont > input:hover {
+  border-bottom: 1.5px solid #0ea2bd;
+}
+
+.phone > input:hover {
+  border-bottom: 1.5px solid #0ea2bd;
+}
+
+.org > input:hover {
+  border-bottom: 1.5px solid #0ea2bd;
+}
+.show--password{
+  cursor: pointer;
+}

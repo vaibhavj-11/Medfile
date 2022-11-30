@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body {
+    background-color: white !important;
+    font-family: 'Noto Serif', serif;
+}
+
+.Navbarbtn{
+    color: white !important;
+}
+
+.Navbarbtn1:hover, .Navbarbtn2:hover{
+    color: black !important;
+}
+
+.hover-border:hover{
+    border: 1px solid black;
+}
+
